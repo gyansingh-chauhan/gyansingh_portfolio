@@ -1,0 +1,196 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+      body {
+        background-color: rgb(0, 0, 33);
+        font-family: "Poppins", sans-serif;
+
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(16, 16, 81);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 25px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        font-size: 1.1rem;
+        color: rgb(175, 175, 238);
+      }
+      .left {
+        font-size: 2rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 25px 0;
+        align-items: center;
+      }
+      .firstsection div {
+        width: 30%;
+      }
+      .leftsection {
+        width: 500px;
+        font-size: 2.5em;
+      }
+      .rightsection img {
+        margin: 50px 0;
+        width: 90%;
+      }
+      .special {
+        color: purple;
+      }
+      #element {
+        color: purple;
+      }
+      .description {
+        width: 100%;
+      }
+      main hr {
+        border: 0;
+        background: rgb(140, 140, 245);
+        height: 1.2px;
+        margin: 40px 40px;
+      }
+      .about-text{
+        padding-left: 65px;
+      }
+.about-outer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 65px;
+}
+.about-box{
+   /*  background-color: red; */
+    width: 40vw;
+    height: 60vh;
+    
+}
+.about-box p{
+    margin-bottom: 15px;
+}
+.dev-img{
+    width: 90%;
+    height: 100%;
+}
+#left-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills{
+    width:100vw;
+    height: 100vh;
+
+}
+.skill-inner{
+    width: 100vw;
+    height: 60vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:last baseline;
+    flex-wrap: wrap;
+    
+}
+.skill-box{
+   /*  background-color: rgb(155, 155, 195); */
+    width: 20%;
+    height: 60%;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid white;
+    padding: top 10px ;
+    box-shadow: 3px 3px 3px whitesmoke;
+   
+}
+.skill-outer h1{
+    padding-left: 65px;
+   
+}
+.image-box{
+    width: 100%;
+    height: 100%;
+
+}
+.image-box h4{
+        padding: 0 20px;
+        margin: 15px;
+}
+.programming-logo{
+    margin-top: 15px;
+    width: 50%;
+    height: 60%;
+}
+
+
+     
+
+
+
+
+.footer-outer{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-inner2{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-inner2 a{
+    margin: 5px;
+}
+.footer-inner2 .icons i:hover{
+    color: white;
+    font-size: 1.3em;
+
+}
+
+.footer-menu ul{
+    display: flex;
+}
+.footer-menu ul li{
+    list-style: none;
+    font-size: 0.9em;
+}
+.footer-menu ul li a:hover{
+    color: purple;
+}
+.footer-menu ul li a{
+                    color: white;
+                    text-decoration: none;
+}
+
+.copyright-text{
+    text-align: center;
+}
